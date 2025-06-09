@@ -9,13 +9,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCGjuDYj21thvqSK5rCha3sOC1FP9DyT5E",
-    authDomain: "gamify-dashboard-cac68.firebaseapp.com",
-    projectId: "gamify-dashboard-cac68",
-    storageBucket: "gamify-dashboard-cac68.firebasestorage.app",
-    messagingSenderId: "471733951830",
-    appId: "1:471733951830:web:8e4970aaba771ea9ddcaf7",
-    measurementId: "G-WG048YXG60"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
