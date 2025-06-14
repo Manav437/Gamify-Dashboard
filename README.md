@@ -2,8 +2,8 @@
 
 A gamified personal dashboard built using **React (Vite)** and **Firebase**, designed to track user activity, display points, streaks, and offer motivational feedback — all in a sleek, responsive interface.
 
-<img style="height:500px" src="https://i.ibb.co/FbYrZndn/gamify-1.png"/>
-<img style="height:500px" src="https://i.ibb.co/twQjJyVR/gamify-2.png"/>
+<img style="height:500px" src="https://i.postimg.cc/LH7N3ySt/gamify-1.png"/>
+<img style="height:500px" src="https://i.postimg.cc/5yPF0714/gamify-2.png"/>
 
 ## 🚀 Features
 
